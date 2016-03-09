@@ -26,7 +26,7 @@ tools += bin/yes bin/touch bin/tee bin/chgrp bin/chown
 tools += bin/cmp bin/col bin/comm bin/cp bin/date bin/dd
 tools += bin/fgrep bin/ln bin/look bin/mkdir bin/mv bin/nice
 tools += bin/od bin/rev bin/rm bin/rmdir bin/sort bin/who
-tools += bin/wc
+tools += bin/wc bin/cat bin/echo bin/du bin/mknod
 
 allofit: $(tools)
 	echo done
